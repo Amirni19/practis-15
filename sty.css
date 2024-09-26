@@ -1,0 +1,29 @@
+*{
+    transition: .5s;
+}
+body{
+    background-color: rgb(134, 255, 255);
+}
+#colorBlock {
+    width: 200px;
+    height: 200px;
+    background-color: white; 
+    margin: 20px auto;
+    border: 2px solid #000;
+}
+#controls {
+    text-align: center;
+}
+
+.colorblock{
+    border-radius: 100px;
+}
+.btn{
+    background-color: white;
+    padding: 12px 19px;
+    border-radius: 10px
+}
+.btn:hover{
+    background-color: rgb(0, 106, 255);
+    color: white;
+}
